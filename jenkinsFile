@@ -1,0 +1,26 @@
+node {
+  try {
+    stage('checkout') {
+    echo "uploading package..."
+    }
+    stage('prepare') {
+      echo "uploading package..."
+    }
+    stage('compile') {
+      echo "nothing to compile for hello.sh..."
+    }
+    stage('test') {
+      echo "uploading package..."
+    }
+    stage('package') {
+       echo "uploading package..."
+    }
+    stage('publish') {
+      echo "uploading package..."
+    }
+  } finally {
+    stage('cleanup') {
+      echo "doing some cleanup..."
+    }
+  }
+}
