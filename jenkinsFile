@@ -1,7 +1,7 @@
 node {
   try {
     stage('checkout') {
-    echo "start checkout..."
+    echo "Versie 2 start checkout..."
     }
     stage('prepare') {
       echo "uploading package..."
