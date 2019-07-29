@@ -1,5 +1,3 @@
-
-
 node {
  def remote = [:]
   remote.name = 'clibeal04'
